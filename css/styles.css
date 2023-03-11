@@ -6,15 +6,14 @@
     background-attachment: fixed;
     text-align: left;
 }
-.title-image{
-    height: 100%;
-    width: 100%;
-}
 .logo{
     border-radius: 100%;
-    height: 10%;
-    width: 10%;
-    margin-left: 0;
+    height: 12.5%;
+    width: 12.5%;
+}
+.nav-logo{
+    width: 50%;
+    margin: auto 0 auto 0;
 }
 .coop-name{
     padding: 0 25% 40% 25%;
@@ -75,7 +74,7 @@
 .bg-image{
     opacity: 65%;
     height: 70%;
-    width: 150%;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -94,4 +93,30 @@
 }
 .fa-brands{
     margin: 20px 10px;
+}
+#testimonials{
+    text-align: center;
+    padding: 0 25%;
+}
+.testimonial-image{
+    max-width: 100%;
+    height: auto;
+}
+#story{
+    text-align: center;
+}
+.story{
+    padding: 7% 10%;
+}
+.story-text{
+    color: #8f8f8f;
+    text-align: justify;
+}
+@media (max-width: 700px){
+    .coop-name{
+        padding: 0 0 100% 0;
+    }
+    .big-heading{
+        font-size: 2.5rem;
+    }
 }
