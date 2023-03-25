@@ -72,7 +72,7 @@
     max-width: 500%;
 }
 .bg-image{
-    opacity: 65%;
+    opacity: 90%;
     height: 70%;
     width: 100%;
     background-size: cover;
@@ -80,8 +80,17 @@
     background-position: center;
     background-attachment: fixed;
 }
-.contact{
-    padding: 3% 5% 20%;
+.contact-title{
+    padding-top: 5%;
+    text-align: center;
+}
+.contact-list{
+    margin: 2% auto auto 29%;
+    padding-bottom: 20%;
+    font-size: 2rem;
+}
+.text-black{
+    font-weight: bold;
 }
 #footer{
     text-align: center;
